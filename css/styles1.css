@@ -1,0 +1,238 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #337ab7;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header section */
+header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-top: 10px;
+}
+
+.nav-link {
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+/* Hero section */
+.hero {
+  background-image: url("image/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+/* About section */
+.about {
+  padding: 80px 0;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.about p {
+  text-align: center;
+}
+
+/* Team section */
+.team {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 20px;
+}
+
+.team-member h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  margin-bottom: 10px;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #000;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.social-links a:hover {
+  color: #337ab7;
+}
+
+/* Download section */
+.download {
+  background-color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.download h2 {
+  margin-bottom: 20px;
+}
+
+.download p {
+  margin-bottom: 40px;
+}
+
+/* Gallery section */
+.gallery {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.gallery img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Contact section */
+.contact {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact ul {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact ul li {
+  margin-bottom: 5px;
+}
+
+.contact form {
+  text-align: center;
+}
+
+.contact form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact form .form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact form textarea {
+  resize: vertical;
+}
+
+.contact form button {
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background-color: #23527c;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+}

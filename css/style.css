@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --primary: #065dfb;
+  --light: #fff;
+  --warning: #f06804;
+}
+
+/****************
+#Custom CSS
+******************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+header {
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+}
+
+header .nav-item .nav-link {
+  font-size: 14px;
+  font-style: 1px;
+  color: var(--light);
+  font-weight: 600;
+  margin: 20px;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  border: none !important;
+  color: var(--warning) !important;
+  box-shadow: none !important;
+  border-radius: none !important;
+}
+
+/*******************
+hero section
+********************/
+.hero {
+  width: 100%;
+}
+
+.hero .carousel-item img {
+  height: 668px;
+  width: 100%;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero .carousel-item::before {
+  content: "";
+  background-color: darkgreen;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.6;
+}
+
+.hero .carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.hero .carousel-content-container {
+  text-align: center;
+  color: var(--light);
+}
+
+.hero .carousel-content-container h2 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 50px;
+}
+
+.hero .carousel-content-container p {
+  width: 705px;
+  text-justify: content;
+  text-transform: capitalize;
+  font-size: 14px;
+  margin: 0 auto 30px auto;
+}
+
+.buttons .button1 {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-overflow: capitalize;
+  display: inline-block;
+  padding: 12px 30px;
+  line-height: 1;
+  margin: 10px 10px;
+  color: var(--light);
+  background-color: var(--primary);
+  border: 1px solid var(--light);
+  border-radius: 50px;
+}
+
+.buttons .button2 {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-overflow: capitalize;
+  display: inline-block;
+  padding: 12px 30px;
+  line-height: 1;
+  margin: 10px 10px;
+  color: var(--light);
+  background-color: var(--warning);
+  border: 1px solid var(--light);
+  border-radius: 50px;
+}
+
+.feature .main-feature-box {
+  margin-bottom: 30px;
+  background-color: var(--light);
+  box-shadow: 0 10px 55px 5px darkolivegreen;
+  position: relative;
+  padding: 25px 20px;
+  z-index: 1;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.feature .main-feature-box .icon {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 60px;
+  line-height: 60px;
+  border-radius: 70% 30% 70% 30% / 60% 40% 60% 40%;
+  background-color: var(--primary);
+  color: var(--light);
+  transition: 0.5s;
+  font-size: 25px;
+}
+
+.feature .main-feature-box h3 {
+  font-size: 19px;
+  font-weight: 700;
+  padding-bottom: 7px;
+  position: relative;
+}
+
+.feature .main-feature-box p {
+  font-size: 13px;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.about {
+  position: relative;
+  background-color: yellowgreen;
+}
+
+.about span {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--primary);
+  font-size: 17px;
+}
+
+.about h2 {
+  font-family: "Abrill Fatface", cursive;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.about p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.buttons .button3 {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-overflow: capitalize;
+  display: inline-block;
+  padding: 10px 30px;
+  line-height: 1;
+  margin: 10px 10px;
+  color: var(--light);
+  background-color: var(--primary);
+  border: 1px solid var(--light);
+  border-radius: 50px;
+}
+
+.courses .single-courses-box {
+  margin-bottom: 30px;
+  position: relative;
+  padding: 40px 30px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.courses .single-courses-box .icon {
+  margin-bottom: 21px;
+}
+
+.courses .single-courses-box h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.courses .single-courses-box p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.choose .choose-item {
+  padding: 10px;
+}
+
+.choose .choose-item h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.choose .choose-item p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+/* Footer */
+footer {
+  background-color: darkgreen;
+  color: white;
+  padding-top: 4rem;
+}
+
+/* Section: Social media */
+section.d-flex {
+  justify-content: center;
+  justify-content: space-between;
+  padding: 4rem 0;
+  border-bottom: 1px solid white;
+}
+
+section.d-flex div.me-5 {
+  margin-right: 5rem;
+}
+
+section.d-flex span {
+  display: block;
+}
+
+section.d-flex a.text-reset {
+  margin-right: 1rem;
+}
+
+/* Section: Links */
+section.container {
+  text-align: center;
+  text-align: left;
+  margin-top: 5rem;
+}
+
+section.container .row {
+  margin-top: 3rem;
+}
+
+section.container .row div.col-md-3,
+section.container .row div.col-lg-4,
+section.container .row div.col-xl-3 {
+  margin-bottom: 2rem;
+}
+
+/* Admissions */
+section.container div.col-md-4,
+section.container div.col-lg-3,
+section.container div.col-xl-3 {
+  margin-bottom: 4rem;
+}
+
+/* Links */
+h6.text-uppercase {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+p a.text-reset {
+  color: white;
+  text-decoration: none;
+}
+
+p a.text-reset:hover {
+  text-decoration: underline;
+}
+
+/* Optional styles for icons */
+i.fas.fa-gem {
+  margin-right: 0.75rem;
+}
+
+i.bi-facebook {
+  margin-right: 0.75rem;
+  color: ;
+}
+
+i.bi-twitter {
+  margin-right: 0.75rem;
+  color: blue;
+}
+
+i.bi-envelope-check-fill {
+  margin-right: 0.75rem;
+  color: azure;
+}
+
+i.bi-youtube {
+  margin-right: 0.75rem;
+  color: red;
+}
+
+/* Copyright */
+div.text-center.p-4 {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact ul {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact ul li {
+  margin-bottom: 5px;
+}
+
+.contact form {
+  text-align: center;
+}
+
+.contact form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact form .form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact form textarea {
+  resize: vertical;
+}
+
+.contact form button {
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background-color: #23527c;
+}
+.download {
+  background-color: darkgreen;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.download h2 {
+  margin-bottom: 20px;
+}
+
+.download p {
+  margin-bottom: 40px;
+}
+.team {
+  background-color: darkgreen;
+  padding: 80px 0;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.team-member h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 20px;
+}
+
+.team-member h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  margin-bottom: 10px;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #000;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.social-links a:hover {
+  color: #337ab7;
+}
+
+8
